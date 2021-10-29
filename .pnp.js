@@ -37,10 +37,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
+            ["@popperjs/core", "npm:2.10.2"],
             ["@rails/actioncable", "npm:6.1.4"],
             ["@rails/activestorage", "npm:6.1.4"],
             ["@rails/ujs", "npm:6.1.4"],
             ["@rails/webpacker", "npm:5.4.3"],
+            ["bootstrap", "virtual:598ff10a3bf16886537266c765252f8b0b508f35e287535460a53544a45e50947fbdb6336b51dab774272a5078e88580534cd80c1deec2f91dd912a6a8b28d2b#npm:5.1.3"],
+            ["jquery", "npm:3.6.0"],
             ["turbolinks", "npm:5.2.0"],
             ["webpack", "virtual:598ff10a3bf16886537266c765252f8b0b508f35e287535460a53544a45e50947fbdb6336b51dab774272a5078e88580534cd80c1deec2f91dd912a6a8b28d2b#npm:4.46.0"],
             ["webpack-cli", "virtual:598ff10a3bf16886537266c765252f8b0b508f35e287535460a53544a45e50947fbdb6336b51dab774272a5078e88580534cd80c1deec2f91dd912a6a8b28d2b#npm:3.3.12"],
@@ -2167,6 +2170,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["@popperjs/core", [
+        ["npm:2.10.2", {
+          "packageLocation": "./.yarn/cache/@popperjs-core-npm-2.10.2-aba0bab6b1-d69c589522.zip/node_modules/@popperjs/core/",
+          "packageDependencies": [
+            ["@popperjs/core", "npm:2.10.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["@rails/actioncable", [
         ["npm:6.1.4", {
           "packageLocation": "./.yarn/cache/@rails-actioncable-npm-6.1.4-0b7207789c-2039c4ae83.zip/node_modules/@rails/actioncable/",
@@ -2654,10 +2666,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["alpha-blog", "workspace:."],
+            ["@popperjs/core", "npm:2.10.2"],
             ["@rails/actioncable", "npm:6.1.4"],
             ["@rails/activestorage", "npm:6.1.4"],
             ["@rails/ujs", "npm:6.1.4"],
             ["@rails/webpacker", "npm:5.4.3"],
+            ["bootstrap", "virtual:598ff10a3bf16886537266c765252f8b0b508f35e287535460a53544a45e50947fbdb6336b51dab774272a5078e88580534cd80c1deec2f91dd912a6a8b28d2b#npm:5.1.3"],
+            ["jquery", "npm:3.6.0"],
             ["turbolinks", "npm:5.2.0"],
             ["webpack", "virtual:598ff10a3bf16886537266c765252f8b0b508f35e287535460a53544a45e50947fbdb6336b51dab774272a5078e88580534cd80c1deec2f91dd912a6a8b28d2b#npm:4.46.0"],
             ["webpack-cli", "virtual:598ff10a3bf16886537266c765252f8b0b508f35e287535460a53544a45e50947fbdb6336b51dab774272a5078e88580534cd80c1deec2f91dd912a6a8b28d2b#npm:3.3.12"],
@@ -3199,6 +3214,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/boolbase-npm-1.0.0-965fe9af6d-e827963c41.zip/node_modules/boolbase/",
           "packageDependencies": [
             ["boolbase", "npm:1.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["bootstrap", [
+        ["npm:5.1.3", {
+          "packageLocation": "./.yarn/cache/bootstrap-npm-5.1.3-691fdc19a6-7d5d67897c.zip/node_modules/bootstrap/",
+          "packageDependencies": [
+            ["bootstrap", "npm:5.1.3"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:598ff10a3bf16886537266c765252f8b0b508f35e287535460a53544a45e50947fbdb6336b51dab774272a5078e88580534cd80c1deec2f91dd912a6a8b28d2b#npm:5.1.3", {
+          "packageLocation": "./.yarn/$$virtual/bootstrap-virtual-b235911bf7/0/cache/bootstrap-npm-5.1.3-691fdc19a6-7d5d67897c.zip/node_modules/bootstrap/",
+          "packageDependencies": [
+            ["bootstrap", "virtual:598ff10a3bf16886537266c765252f8b0b508f35e287535460a53544a45e50947fbdb6336b51dab774272a5078e88580534cd80c1deec2f91dd912a6a8b28d2b#npm:5.1.3"],
+            ["@popperjs/core", "npm:2.10.2"],
+            ["@types/popperjs__core", null]
+          ],
+          "packagePeers": [
+            "@popperjs/core",
+            "@types/popperjs__core"
           ],
           "linkType": "HARD",
         }]
@@ -6716,6 +6753,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:16.11.1"],
             ["merge-stream", "npm:2.0.0"],
             ["supports-color", "npm:7.2.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["jquery", [
+        ["npm:3.6.0", {
+          "packageLocation": "./.yarn/cache/jquery-npm-3.6.0-ca7872bdbb-a0a819022a.zip/node_modules/jquery/",
+          "packageDependencies": [
+            ["jquery", "npm:3.6.0"]
           ],
           "linkType": "HARD",
         }]
